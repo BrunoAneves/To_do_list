@@ -1,10 +1,13 @@
+import { CiCirclePlus } from "react-icons/ci";
+import * as S from "./styles.js"
+
 function AddToList() {
     return (
-        <form>
+        <S.Form>
 
-            <input />
-            <button></button>
-        </form>
+            <S.Input placeholder="Adicionar uma nova tarefa" />
+            <S.Button>Criar <CiCirclePlus size={30} /></S.Button>
+        </S.Form>
     )
 }
 
